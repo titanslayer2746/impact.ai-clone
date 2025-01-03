@@ -1,0 +1,21 @@
+
+body bg-color =>  rgb(14,32,66) #0e2042
+navbar bg-color => rgb(15,35,73) #0f2349
+footer bg-color => #10264D
+
+hover linear gradient =>  #689ae4 #5bbefd #d458ed #f468af 
+
+navebar elements hover color => #cfd3db
+
+partner card bg-color - #0b1b36
+
+
+navbar links font family - "DM Sans", sans-serif
+navbar links font size - 14px , line height - 18px
+
+hero primary Header font family - Mont, sans-serif
+hero primary header font size - 88px , line height - 97px, weight - 700
+
+hero secondary header size - 20px, line height - 30px, weight - 400
+
+navbar bottom - #1b366c

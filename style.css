@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: #0e2042;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f2349;
+    height: 85px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-bottom: 1.5px solid #1b366c;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.links{
+    display: flex;
+    padding-top: 30px;
+    margin-left: 40px;
+
+}
+
+.link{
+    margin-right: 30px;
+    height: 30%;
+}
+
+.link:hover{
+    color: #cfd3db;
+    cursor: pointer;
+    transform: scale(1.1);
+    animation: border-animation 1s ease-in;
+}
+
+@keyframes border-animation {
+    from {border-bottom: none;}
+    to {border-bottom: 1.5px solid #cfd3db;}
+}
+
+.logo{
+    padding-top: 22px;
+    padding-left: 35px;
+}
+
+.logo img{
+    height: 36px;
+    width: 140px;
+}
+
+.btn-wrapper{
+    background-image: linear-gradient(to right,#689ae4, #5bbefd, #d458ed, #f468af);
+    width: 203px;
+    height: 43px;
+    border-radius: 24px;
+    position: relative;
+    padding-top: 3px;
+    padding-left: 3px;
+    margin-top: 17.5px;
+    margin-right: 35px;
+}
+
+.btn-wrapper:hover{
+    background-image: linear-gradient(#fff,#fff)
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0b1b36;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,#689ae4, #5bbefd, #d458ed, #f468af);
+}
+
+
+/*Hero Section*/
+
+.hero-section{
+    position: absolute;
+    top: 86.5px;
+    background-image: url("./assets/designs/img1.webp");
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    height: 130vh;
+    width: 98.5vw;
+}
+
+.small-heading{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    width: 170px;
+    margin-left: 44%;
+    margin-top: 140px;
+    background-image: linear-gradient(to right,#689ae4, #5bbefd, #d458ed, #f468af);
+    color: transparent;
+    background-clip: text;
+}
+
+.large-heading{
+    font-family: Mont, sans-serif;
+    font-weight: 800;
+    font-size: 87px;
+    line-height: 92px;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.large-heading2{
+    margin-right: 80px;
+}
+
+.secondary-heading{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 35px;
+    margin-left: 33%;
+    width: 30%;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.demo-btn{
+    margin-left: 42.5%;
+    margin-top: 35px;
+}
+
+/*Partners section*/
+
+
+.partners-heading{
+    margin-top: 180px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 43.5%;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.partners-wrapper{
+    display: flex;
+    overflow: hidden; /* Hide content outside the container */
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.partners-list{
+    display: flex;
+    gap: 22px;
+    width: max-content; /* Ensure the content stretches infinitely */
+    animation: none; /* Remove animation in CSS */
+}
+
+.partner-card{
+    background-color: #0b1b36;
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner-card img{
+    width: 135px;
+    height: 80%;
+    margin: 8px 16px;
+}
